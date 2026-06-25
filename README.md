@@ -10,7 +10,7 @@ Works for both FGT and FFW images.
 
 >This was tested on both FGT and FFW v8.0.0.F-build0167. Other builds might require reversing the kernel again to find the exact kernel segments and virtual addresses of the RSA public key and the XOR key. 
 
-The script tries to autodetect if the `.out` file is from FGT or FFW based on the name. It can also be specified as an optional argument just in case.
+The script tries to autodetect if the `.out` file is corresponds to FGT or FFW based on the naming. It can also be specified as an optional argument just in case.
 
 ```
 $ python3 forticrack_v8.py
