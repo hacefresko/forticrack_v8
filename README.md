@@ -73,7 +73,7 @@ Where:
 - `flatkc`        : Linux kernel `bzImage`
 - `rootfs.gz`     : Encrypted filesystem
 
-All interesting files for vulnerability researchers, such as `/bin/init`, are encrypted inside `rootfs.gz`.
+All interesting files for vulnerability researchers, such as `/sbin/init`, are encrypted inside `rootfs.gz`.
 
 ### 3. Decrypt `rootfs.gz` (the novel part)
 
